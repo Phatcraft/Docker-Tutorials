@@ -23,6 +23,7 @@ FROM php:8.4-rc-fpm
 
 # Install composer package
 RUN apt-get update && apt-get install -y git zip unzip
+# Alpine: apk add --no-cache <packages>
 
 # Copy composer files from image
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
