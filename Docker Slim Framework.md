@@ -3,7 +3,7 @@ Hướng dẫn setup Slim Framework trên Docker
 
 ## 1. Cấu trúc của 1 project
 + Folder `app`: Folder chứa toàn bộ dự án Slim Framework.<br>
-Tuy nhiên bạn cũng có thể đặt chung vào 1 folder, thay `./app`, `app/` bằng `.` trong các hướng dẫn sau.
+Tuy nhiên bạn cũng có thể đặt chung vào 1 folder.
 + `Dockerfile`: File setup 1 image riêng.
 + `docker-compose.yaml`: File cấu hình Docker Compose.
 
